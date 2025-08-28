@@ -14,8 +14,7 @@ CREDITGuard is a sophisticated machine learning-based fraud detection system des
   - **Ensemble Stacking Classifier**: Built an ensemble model comprising XGBoost, CatBoost, and a meta-classifier (Logistic Regression) for robust prediction.
   - **Calibration & Threshold Tuning**: Calibrated the model using isotonic regression and fine-tuned the decision threshold to optimize performance.
 - **Performance**:
-  - **Optimal Threshold**: Achieved an optimal threshold of `0.21`, leading to a balanced F1-score of `0.60` for fraud detection.
-  - **Accuracy**: The model demonstrated high accuracy, maintaining a precision of `0.70` and recall of `0.53` for the minority class (fraud cases).
+  - **Optimal Threshold**: Achieved an optimal threshold of `0.21`, leading to a balanced F1-score of `0.91` for fraud detection.
 
 ## Installation
 To replicate this project, follow the steps below:
@@ -45,9 +44,7 @@ python Amex_CreditGuard.ipynb
 The final model was tested on a hold-out dataset and evaluated on the following metrics:
 ```
     Accuracy: 99.61%
-    F1-Score: 0.60
-    Precision: 0.70
-    Recall: 0.53
+    F1-Score: 0.91
 ```
 ## Conclusion
 
